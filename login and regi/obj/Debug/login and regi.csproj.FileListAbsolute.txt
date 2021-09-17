@@ -1,0 +1,36 @@
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\login and regi.exe.config
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\login and regi.exe
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\login and regi.pdb
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login and regi.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.login_from.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.Properties.Resources.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login and regi.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login and regi.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login and regi.exe
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login and regi.pdb
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\MySql.Data.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\Google.Protobuf.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\Renci.SshNet.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\MySql.Data.xml
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login and regi.csproj.CopyComplete
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.regi.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.MainForm1.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.ADD.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.sell.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.transaction.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.loss.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.valid.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.rr.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.due.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.bill.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.billx.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.PAY.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.graph.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.tu.resources
+C:\Users\HP\source\repos\login and regi\login and regi\obj\Debug\login_and_regi.Form2.resources
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\itextsharp.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\itextsharp.pdfa.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\itextsharp.xtra.dll
+C:\Users\HP\source\repos\login and regi\login and regi\bin\Debug\itextsharp.xml

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{039C6E2D-81C5-4BE9-9477-0C8AFA7645FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>login_and_regi</RootNamespace>
+    <AssemblyName>login and regi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker">
+      <HintPath>.\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.17.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD.Designer.cs">
+      <DependentUpon>ADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill.Designer.cs">
+      <DependentUpon>bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billx.Designer.cs">
+      <DependentUpon>billx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="due.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="due.Designer.cs">
+      <DependentUpon>due.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graph.Designer.cs">
+      <DependentUpon>graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login from.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login from.Designer.cs">
+      <DependentUpon>login from.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loss.Designer.cs">
+      <DependentUpon>loss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm1.Designer.cs">
+      <DependentUpon>MainForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAY.Designer.cs">
+      <DependentUpon>PAY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regi.Designer.cs">
+      <DependentUpon>regi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rr.Designer.cs">
+      <DependentUpon>rr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sell.Designer.cs">
+      <DependentUpon>sell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaction.Designer.cs">
+      <DependentUpon>transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tu.Designer.cs">
+      <DependentUpon>tu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="valid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="valid.Designer.cs">
+      <DependentUpon>valid.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ADD.resx">
+      <DependentUpon>ADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill.resx">
+      <DependentUpon>bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billx.resx">
+      <DependentUpon>billx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="due.resx">
+      <DependentUpon>due.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graph.resx">
+      <DependentUpon>graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login from.resx">
+      <DependentUpon>login from.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loss.resx">
+      <DependentUpon>loss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm1.resx">
+      <DependentUpon>MainForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAY.resx">
+      <DependentUpon>PAY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="regi.resx">
+      <DependentUpon>regi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rr.resx">
+      <DependentUpon>rr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sell.resx">
+      <DependentUpon>sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transaction.resx">
+      <DependentUpon>transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tu.resx">
+      <DependentUpon>tu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="valid.resx">
+      <DependentUpon>valid.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\lock.jpg" />
+    <Content Include="image\user.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
